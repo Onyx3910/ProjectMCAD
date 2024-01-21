@@ -1,0 +1,6 @@
+0|Hello!|Hello,1,|Wassup,1,|Screw off,0,*
+1|I have a quest for you...|What is it?,2,|Hold that thought,1,*|I'm not interested,5,*
+2|I need you to kill a monster|What monster?,3,|I'm not interested,5,*|I'll do it,4,
+3|It's a dragon|I'm not interested,5,*|I'll do it,4,|
+4|Thank you!|You're welcome,-1,*|No problem,-1,*|
+5|Change your mind?|Yes,1,|No,5,*|

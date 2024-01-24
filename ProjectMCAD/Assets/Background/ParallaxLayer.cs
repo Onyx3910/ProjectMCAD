@@ -1,13 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class ParallaxLayer : MonoBehaviour
 {
-    public float AmountOfParallax;  //This is amount of parallax scroll. 
+    public float amountOfParallax;  // This is amount of parallax scroll. 
 
-    private float _startingPos;     //This is the starting position of the sprites.
-    private float _lengthOfSprite;  //This is the length of the sprites.
+    private float _startingPos;     // This is the starting position of the sprites.
+    private float _lengthOfSprite;  // This is the length of the sprites.
 
     private void Start()
     {
@@ -20,8 +18,8 @@ public class ParallaxLayer : MonoBehaviour
     private void Update()
     {
         var camPosition = Camera.main.transform.position;
-        var temp = camPosition.x * (1 - AmountOfParallax);
-        var parallaxOffset = camPosition.x * AmountOfParallax;
+        var temp = camPosition.x * (1 - amountOfParallax);
+        var parallaxOffset = camPosition.x * amountOfParallax;
 
         transform.position = new Vector3(_startingPos + parallaxOffset, transform.position.y, transform.position.z);
 

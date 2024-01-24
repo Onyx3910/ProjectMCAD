@@ -1,11 +1,11 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class Projectile : MonoBehaviour
+public class Projectile : MonoBehaviour, IVolitile
 {
     [Header("Physics")]
 
+    [Range(0f, 1f)]
+    public float elasticity = 0.5f;
     public float maxSpeed = 50f;
     public bool gravityEnabled = true;
 
@@ -16,16 +16,8 @@ public class Projectile : MonoBehaviour
     public float floorAngle = 15f;
     public float collisionCheckRadius = 1f;
 
-    //public Vector2 VelocityTarget { get; protected set; }
     public Vector2 Velocity { get; set; }
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
-
-    // Update is called once per frame
     void Update()
     {
         Gravity();
@@ -52,13 +44,25 @@ public class Projectile : MonoBehaviour
         var collision = Physics2D.CircleCast(transform.position, collisionCheckRadius, Vector2.zero, 0f, ~avoidLayer);
         if (collision)
         {
+            if (collision.transform.CompareTag("Enemy"))
+            {
+                collision.transform.GetComponent<Health>().Hit();
+            }
+
             if(Vector2.Angle(Vector2.up, collision.normal) <= floorAngle)
             {
-                Destroy(gameObject);
+                Die();
                 return;
             }
 
-            Velocity = Vector2.Reflect(Velocity, collision.normal);
+            Velocity = elasticity * Vector2.Reflect(Velocity, collision.normal);
+            transform.Translate((collisionCheckRadius - collision.distance) * collision.normal);
         }
+    }
+
+    public void Die()
+    {
+        Velocity = Vector2.zero;
+        Destroy(gameObject);
     }
 }

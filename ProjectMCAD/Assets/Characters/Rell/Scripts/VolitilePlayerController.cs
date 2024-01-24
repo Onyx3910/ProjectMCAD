@@ -1,9 +1,9 @@
 using System;
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
-public class VolitilePlayerController : MonoBehaviour
+[RequireComponent(typeof(Health))]
+public class VolitilePlayerController : MonoBehaviour, IVolitile
 {
     [Header("Movement")]
 
@@ -36,6 +36,14 @@ public class VolitilePlayerController : MonoBehaviour
     public Vector2 Velocity { get; protected set; }
     public float AttackChargeTime { get; protected set; }
     public bool ChargingAttack => AttackChargeTime > 0f;
+    public SpriteRenderer SpriteRenderer { get; private set; }
+    public Health Health { get; private set; }
+
+    private void Start()
+    {
+        SpriteRenderer = GetComponent<SpriteRenderer>();
+        Health = GetComponent<Health>();
+    }
 
     private void Update()
     {
@@ -59,9 +67,22 @@ public class VolitilePlayerController : MonoBehaviour
         Velocity = Vector2.SmoothDamp(Velocity, VelocityTarget, ref acceleration, 0.01f);
     }
 
+    public void Die()
+    {
+        canMove = false;
+        canAttack = false;
+        Destroy(gameObject, 1f);
+    }
+
+    #region Movement
+
     private void MovementInput()
     {
-        if (!canMove) return;
+        if (!canMove)
+        {
+            VelocityTarget = new Vector2(0f, VelocityTarget.y);
+            return;
+        }
 
         if (!Input.GetKey(KeyCode.A) && !Input.GetKey(KeyCode.D))
         {
@@ -70,11 +91,13 @@ public class VolitilePlayerController : MonoBehaviour
 
         if (Input.GetKey(KeyCode.A))
         {
+            FaceLeft();
             VelocityTarget = new Vector2(-horizontalSpeed, VelocityTarget.y);
         }
 
         if (Input.GetKey(KeyCode.D))
         {
+            FaceRight();
             VelocityTarget = new Vector2(horizontalSpeed, VelocityTarget.y);
         }
 
@@ -85,6 +108,20 @@ public class VolitilePlayerController : MonoBehaviour
             VelocityTarget += jumpStrength * Vector2.up;
         }
     }
+
+    private void FaceLeft()
+    {
+        SpriteRenderer.flipX = true;
+    }
+
+    private void FaceRight()
+    {
+        SpriteRenderer.flipX = false;
+    }
+
+    #endregion
+
+    #region Attack
 
     private void AttackInput()
     {
@@ -111,14 +148,19 @@ public class VolitilePlayerController : MonoBehaviour
         }
     }
 
+    #endregion
+
+    #region Physics
+
     private void Gravity()
     {
         if (!IsGrounded)
         {
-            //Debug.Log("Falling!");
             VelocityTarget += 32f * Time.deltaTime * Vector2.down;
         }
     }
+
+    #endregion
 
     #region Collision Handling
 

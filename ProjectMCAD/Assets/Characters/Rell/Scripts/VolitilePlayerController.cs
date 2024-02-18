@@ -37,11 +37,14 @@ public class VolitilePlayerController : MonoBehaviour, IVolitile
     public float AttackChargeTime { get; protected set; }
     public bool ChargingAttack => AttackChargeTime > 0f;
     public SpriteRenderer SpriteRenderer { get; private set; }
+    public Animator Animator { get; private set; }
     public Health Health { get; private set; }
 
     private void Start()
     {
+        IsGrounded = true;
         SpriteRenderer = GetComponent<SpriteRenderer>();
+        Animator = GetComponent<Animator>();
         Health = GetComponent<Health>();
     }
 
@@ -57,6 +60,10 @@ public class VolitilePlayerController : MonoBehaviour, IVolitile
     private void LateUpdate()
     {
         HandleCollisions();
+
+        Animator.SetBool("Jumping", !IsGrounded);
+        Animator.SetFloat("VelocityX", Velocity.x);
+        Animator.SetFloat("VelocityY", Velocity.y);
     }
 
     protected void ProcessInput()
@@ -103,7 +110,6 @@ public class VolitilePlayerController : MonoBehaviour, IVolitile
 
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
         {
-            //Debug.Log("Jumping!");
             IsJumping = true;
             VelocityTarget += jumpStrength * Vector2.up;
         }

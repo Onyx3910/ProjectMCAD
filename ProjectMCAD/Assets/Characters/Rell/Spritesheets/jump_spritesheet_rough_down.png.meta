@@ -1,0 +1,253 @@
+fileFormatVersion: 2
+guid: f2cb3b1a62349114180e0fefa0585bae
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: jump_spritesheet_rough_down_5
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 285
+        width: 136
+        height: 241
+      alignment: 9
+      pivot: {x: 0.5513162, y: 0.42346597}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efb7a8b4005b5d343a6b5a01455f8c98
+      internalID: 1311168125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_spritesheet_rough_down_6
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 286
+        width: 172
+        height: 220
+      alignment: 9
+      pivot: {x: 0.3695771, y: 0.3912352}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2dbbc1f715f28e646800d42f0e1aacf4
+      internalID: 2069013253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_spritesheet_rough_down_7
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 22
+        width: 165
+        height: 212
+      alignment: 9
+      pivot: {x: 0.34893784, y: 0.38948247}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7681f825ebafdfb408d27ff1c01b3ef7
+      internalID: 1146490049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_spritesheet_rough_down_8
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 17
+        width: 156
+        height: 217
+      alignment: 9
+      pivot: {x: 0.40093797, y: 0.38283986}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1619788c86891bb41807af90fbe609ee
+      internalID: 1815928831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_spritesheet_rough_down_9
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 12
+        width: 144
+        height: 230
+      alignment: 9
+      pivot: {x: 0.5242326, y: 0.41547084}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77e1681535b053041b0b0845f817ece1
+      internalID: 1783498170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: jump_spritesheet_rough_down_10
+      rect:
+        serializedVersion: 2
+        x: 667
+        y: 16
+        width: 120
+        height: 222
+      alignment: 9
+      pivot: {x: 0.6246256, y: 0.42589787}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60eb3f198bd9e0e41907860faa84d57d
+      internalID: -1846364919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      jump_spritesheet_rough_down_0: 954892477
+      jump_spritesheet_rough_down_1: -1604243985
+      jump_spritesheet_rough_down_10: -1846364919
+      jump_spritesheet_rough_down_11: 1893177676
+      jump_spritesheet_rough_down_12: 353511113
+      jump_spritesheet_rough_down_2: -516879604
+      jump_spritesheet_rough_down_3: -731613990
+      jump_spritesheet_rough_down_4: -1980761980
+      jump_spritesheet_rough_down_5: 1311168125
+      jump_spritesheet_rough_down_6: 2069013253
+      jump_spritesheet_rough_down_7: 1146490049
+      jump_spritesheet_rough_down_8: 1815928831
+      jump_spritesheet_rough_down_9: 1783498170
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

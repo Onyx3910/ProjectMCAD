@@ -1,0 +1,664 @@
+fileFormatVersion: 2
+guid: f1df0dfa57b78ae4f91d265fe7473144
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_0
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 1307
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886af92264c4eab4fbbb8d279500b468
+      internalID: -476738420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_1
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 1307
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04afa80403eba1440b9b78ecb173c6b3
+      internalID: 1460311579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_2
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 1307
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3be7aa6308e23345b15efc5007059e9
+      internalID: -79088091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_3
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 1307
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d4a6c3dabb87e0459a3c8bfa34e8441
+      internalID: 656558390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_4
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 1307
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2aac3e4db101474a9d9fc645eb98700
+      internalID: 214633236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_5
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 1307
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58ac028e0a7ae3247b92128a0a4112d8
+      internalID: 1145525554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_6
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 994
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edb13b18b015954b9b6e9ba9b191333
+      internalID: 489546751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_7
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 994
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59a31533bacfb554aa3e39c13649f0cf
+      internalID: -533341029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_8
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 994
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0214678194a833e4eb9efb9ec780cd43
+      internalID: 2119485459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_9
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 994
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b557ba13dbbcc2e4fb2498e7146855e2
+      internalID: -1180638720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_10
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 994
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b07aa3456886114fae5dbdccbf93e29
+      internalID: -824487785
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_11
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 994
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d817595e1bc0afb43bfcd2e30ce65cfd
+      internalID: -970274737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_12
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 681
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab6e9807c32ac649bb2a28f7be6ddc5
+      internalID: -2104806082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_13
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 681
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39fc816354ca79a4d908784b5c240e53
+      internalID: -656667922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_14
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 681
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9a85c329ada2af4bb2020c70bc28ac8
+      internalID: -899590779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_15
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 681
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24d49937b150c2b48a33f6dda4ac4c8c
+      internalID: -2091816981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_16
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 681
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d69b9352da4c7f439af6ff935f63b57
+      internalID: -1475653799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_17
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 681
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431c2faa837815e449299688cd72fb0c
+      internalID: 2105012420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_18
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 369
+        width: 256
+        height: 258
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3cf4ee6cefcc24ca16f26daca99d47
+      internalID: 2011620306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_19
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 368
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d33d6108c71bdc743a3dbae40b382ab0
+      internalID: -2006524374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_20
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 368
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d83b6f91594cf784781a1617251f2134
+      internalID: -797455395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_21
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 368
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6637b9ebc62adf4eb594a39d7d385de
+      internalID: 1757181222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_22
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 368
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb10dc016511e464986cf2c1ec04c5ae
+      internalID: -995088853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_23
+      rect:
+        serializedVersion: 2
+        x: 1605
+        y: 368
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443deb7b4a6624e45a2383d02a20d5e7
+      internalID: -1834594669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Rell_spritesheet_hit_rough_24
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 55
+        width: 255.83333
+        height: 258
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c190eeeeeda88b645b0c70466dd2f137
+      internalID: -342881307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Rell_spritesheet_hit_rough_0: -476738420
+      Rell_spritesheet_hit_rough_1: 1460311579
+      Rell_spritesheet_hit_rough_10: -824487785
+      Rell_spritesheet_hit_rough_11: -970274737
+      Rell_spritesheet_hit_rough_12: -2104806082
+      Rell_spritesheet_hit_rough_13: -656667922
+      Rell_spritesheet_hit_rough_14: -899590779
+      Rell_spritesheet_hit_rough_15: -2091816981
+      Rell_spritesheet_hit_rough_16: -1475653799
+      Rell_spritesheet_hit_rough_17: 2105012420
+      Rell_spritesheet_hit_rough_18: 2011620306
+      Rell_spritesheet_hit_rough_19: -2006524374
+      Rell_spritesheet_hit_rough_2: -79088091
+      Rell_spritesheet_hit_rough_20: -797455395
+      Rell_spritesheet_hit_rough_21: 1757181222
+      Rell_spritesheet_hit_rough_22: -995088853
+      Rell_spritesheet_hit_rough_23: -1834594669
+      Rell_spritesheet_hit_rough_24: -342881307
+      Rell_spritesheet_hit_rough_3: 656558390
+      Rell_spritesheet_hit_rough_4: 214633236
+      Rell_spritesheet_hit_rough_5: 1145525554
+      Rell_spritesheet_hit_rough_6: 489546751
+      Rell_spritesheet_hit_rough_7: -533341029
+      Rell_spritesheet_hit_rough_8: 2119485459
+      Rell_spritesheet_hit_rough_9: -1180638720
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

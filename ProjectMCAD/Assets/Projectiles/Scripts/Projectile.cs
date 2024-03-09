@@ -34,7 +34,6 @@ public class Projectile : MonoBehaviour, IVolitile
     {
         if (gravityEnabled)
         {
-            Debug.Log("Falling!");
             Velocity += 32f * Time.deltaTime * Vector2.down;
         }
     }

@@ -97,7 +97,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2264f8809800f874785447b64fe5d64e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxSpeed: 50
+  elasticity: 0.5
+  maxSpeed: 25
   gravityEnabled: 1
   avoidLayer:
     serializedVersion: 2

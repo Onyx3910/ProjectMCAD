@@ -107,7 +107,7 @@ MonoBehaviour:
   jumpStrength: 15
   canAttack: 1
   projectilePrefab: {fileID: 3049596748733857508, guid: 727c4ad1e10b62a4ba12fcb40ba14957, type: 3}
-  maxAttackChargeTime: 2.5
+  maxAttackChargeTime: 1
   ground:
     serializedVersion: 2
     m_Bits: 64

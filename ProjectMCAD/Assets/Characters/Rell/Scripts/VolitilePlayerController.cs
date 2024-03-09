@@ -31,11 +31,9 @@ public class VolitilePlayerController : MonoBehaviour, IVolitile
 
     public bool IsGrounded { get; protected set; }
     public bool WasGrounded { get; protected set; }
-    public bool IsJumping { get; protected set; }
     public Vector2 VelocityTarget { get; protected set; }
     public Vector2 Velocity { get; protected set; }
-    public float AttackChargeTime { get; protected set; }
-    public bool ChargingAttack => AttackChargeTime > 0f;
+    public float ChargeStrength { get; protected set; }
     public SpriteRenderer SpriteRenderer { get; private set; }
     public Animator Animator { get; private set; }
     public Health Health { get; private set; }
@@ -110,7 +108,6 @@ public class VolitilePlayerController : MonoBehaviour, IVolitile
 
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded)
         {
-            IsJumping = true;
             VelocityTarget += jumpStrength * Vector2.up;
         }
     }
@@ -133,25 +130,44 @@ public class VolitilePlayerController : MonoBehaviour, IVolitile
     {
         if (!canAttack) return;
 
-        if (Input.GetKey(KeyCode.Mouse0))
+        if(Input.GetKeyDown(KeyCode.Mouse0))
         {
-            Debug.Log("Attacking!");
-            AttackChargeTime += Time.deltaTime;
+            Debug.Log("Starting Attack!");
+            canMove = false;
+            ChargeStrength = 0f;
+            Animator.SetBool("ChargingAttack", true);
         }
 
-        if (Input.GetKeyUp(KeyCode.Mouse0) && ChargingAttack)
+        if (Input.GetKeyUp(KeyCode.Mouse0))
         {
             Debug.Log("Attack Released!");
-
-            var clampedChargeTime = Mathf.Clamp(AttackChargeTime, 0f, maxAttackChargeTime);
-            var attackStrength = clampedChargeTime / maxAttackChargeTime;
-
-            var attackDirection = ((Vector2)(Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position)).normalized;
-            var projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity).GetComponent<Projectile>();
-            projectile.Velocity = attackStrength * projectile.maxSpeed * attackDirection;
-
-            AttackChargeTime = 0f;
+            //canAttack = false;
+            Animator.SetBool("ChargingAttack", false);
         }
+    }
+
+    // This method is called from the animation event
+    private void SetAttackStrength(float strength)
+    {
+        ChargeStrength = strength / 100f;
+    }
+
+    // This method is called from the animation event
+    private void ThrowProjectile()
+    {
+        Debug.Log("Throwing Projectile!");
+        var attackDirection = ((Vector2)(Camera.main.ScreenToWorldPoint(Input.mousePosition) - transform.position)).normalized;
+        var projectile = Instantiate(projectilePrefab, transform.position, Quaternion.identity).GetComponent<Projectile>();
+        if (ChargeStrength == 0f) ChargeStrength = 0.33f;
+        projectile.Velocity = ChargeStrength * projectile.maxSpeed * attackDirection;
+    }
+
+    // This method is called from the animation event
+    private void ResetAttack()
+    {
+        Debug.Log("Attack Reset!");
+        canMove = true;
+        canAttack = true;
     }
 
     #endregion

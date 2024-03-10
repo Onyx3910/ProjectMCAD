@@ -133,6 +133,13 @@ public class VolitilePlayerController : MonoBehaviour, IVolitile
         if(Input.GetKeyDown(KeyCode.Mouse0))
         {
             Debug.Log("Starting Attack!");
+
+            // Aim the player to where they will throw the projectile
+            var mousePosition = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            var attackDirection = ((Vector2)(mousePosition - transform.position)).normalized;
+            if (attackDirection.x < 0f) FaceLeft();
+            else FaceRight();
+
             canMove = false;
             ChargeStrength = 0f;
             Animator.SetBool("ChargingAttack", true);
@@ -309,12 +316,4 @@ public class VolitilePlayerController : MonoBehaviour, IVolitile
     }
 
     #endregion
-
-    private void OnDrawGizmos()
-    {
-        Gizmos.color = Color.red;
-        Gizmos.DrawWireSphere(transform.position, collisionCheckRadius);
-        Gizmos.DrawLine(transform.position, transform.position + Vector3.down);
-        Gizmos.DrawWireSphere(transform.position + Vector3.down, collisionCheckRadius);
-    }
 }

@@ -1,0 +1,686 @@
+fileFormatVersion: 2
+guid: e0f893e633376b649bb7542be1477b3e
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: malebirb_idle_0
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1571
+        width: 201
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fcae568036a8ae42af26281974a4144
+      internalID: -1228924457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_1
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1569
+        width: 202
+        height: 422
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea81a88527dbd5e42b2e60b611f43648
+      internalID: -1334179905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_2
+      rect:
+        serializedVersion: 2
+        x: 528
+        y: 1571
+        width: 205
+        height: 418
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b76971c626b5a2d498637564ca8a89da
+      internalID: 364154332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_3
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1569
+        width: 205
+        height: 420
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 142fbbca3a6434a419135359f6ba08d5
+      internalID: -1784456524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_4
+      rect:
+        serializedVersion: 2
+        x: 977
+        y: 1571
+        width: 209
+        height: 417
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd543845e24958a45b2ac7842439aa3e
+      internalID: 1390447294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_5
+      rect:
+        serializedVersion: 2
+        x: 1203
+        y: 1569
+        width: 208
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80b857172d74700438c67295b259f5f4
+      internalID: -1773764458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_6
+      rect:
+        serializedVersion: 2
+        x: 1426
+        y: 1569
+        width: 210
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fc4ee789b993e44884a463aae75ec5c
+      internalID: 1149972076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_7
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 1571
+        width: 209
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c676837a6f2bee40a3a95f15de0f8c0
+      internalID: 510858370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_8
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 1120
+        width: 210
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2552f9bfc55ea6458fe7b22a6fdcb08
+      internalID: 1977455269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_9
+      rect:
+        serializedVersion: 2
+        x: 308
+        y: 1118
+        width: 209
+        height: 407
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7974429b6553be648bc363fbf82a0a7d
+      internalID: -1735057950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_10
+      rect:
+        serializedVersion: 2
+        x: 545
+        y: 1120
+        width: 205
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b62896133d61e454d80e492c57d2761c
+      internalID: -266100872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_11
+      rect:
+        serializedVersion: 2
+        x: 755
+        y: 1120
+        width: 205
+        height: 397
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f5a042a3b0e3b8949878d95d9fc11aa3
+      internalID: -1309640380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_12
+      rect:
+        serializedVersion: 2
+        x: 982
+        y: 1120
+        width: 199
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a227c23cac031f14eb195c2503074c34
+      internalID: 606482894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_13
+      rect:
+        serializedVersion: 2
+        x: 1210
+        y: 1120
+        width: 200
+        height: 398
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12e6b05fdf694ca45b7854ac902b9a0e
+      internalID: -1098018456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_14
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 1120
+        width: 197
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fed7f75a1d9ddc245a057f0519eb0041
+      internalID: 1061474482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_15
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 1120
+        width: 198
+        height: 405
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2e8effa3d97644f9b168cc5e1d13d8
+      internalID: 1281264977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_16
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 656
+        width: 191
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04e8f220b49388944b08d3f0cc0c8acc
+      internalID: -2083430861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_17
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 656
+        width: 191
+        height: 412
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed6b050a3961f074584333ce8c8ed73f
+      internalID: -2022783476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_18
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 654
+        width: 191
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d54ef5bff67c7b546a190b8ca41eee65
+      internalID: -845244206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_19
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 654
+        width: 192
+        height: 419
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95ae175cbdef7d04dbda0f69e8e062f7
+      internalID: -1061312847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_20
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 654
+        width: 194
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c93d682e922f9d4580f8c887c66485b
+      internalID: 250390477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_21
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 654
+        width: 194
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c022273c5006f948a12a9751c3da53b
+      internalID: -1208838244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_22
+      rect:
+        serializedVersion: 2
+        x: 1437
+        y: 654
+        width: 199
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6301fdd8348db9745a9ec091aaf168ed
+      internalID: -1178090650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_23
+      rect:
+        serializedVersion: 2
+        x: 1658
+        y: 654
+        width: 199
+        height: 424
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 162f8f325249f8347b590d3f81a8d591
+      internalID: 1301984267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_24
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 204
+        width: 202
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7dc3b00c61d4f11468cd922b673e7493
+      internalID: 178305829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: malebirb_idle_25
+      rect:
+        serializedVersion: 2
+        x: 318
+        y: 204
+        width: 203
+        height: 421
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95257e79b36bfa447999eb3a4b944f51
+      internalID: -109621047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      malebirb_idle_0: -1228924457
+      malebirb_idle_1: -1334179905
+      malebirb_idle_10: -266100872
+      malebirb_idle_11: -1309640380
+      malebirb_idle_12: 606482894
+      malebirb_idle_13: -1098018456
+      malebirb_idle_14: 1061474482
+      malebirb_idle_15: 1281264977
+      malebirb_idle_16: -2083430861
+      malebirb_idle_17: -2022783476
+      malebirb_idle_18: -845244206
+      malebirb_idle_19: -1061312847
+      malebirb_idle_2: 364154332
+      malebirb_idle_20: 250390477
+      malebirb_idle_21: -1208838244
+      malebirb_idle_22: -1178090650
+      malebirb_idle_23: 1301984267
+      malebirb_idle_24: 178305829
+      malebirb_idle_25: -109621047
+      malebirb_idle_3: -1784456524
+      malebirb_idle_4: 1390447294
+      malebirb_idle_5: -1773764458
+      malebirb_idle_6: 1149972076
+      malebirb_idle_7: 510858370
+      malebirb_idle_8: 1977455269
+      malebirb_idle_9: -1735057950
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

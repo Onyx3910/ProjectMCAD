@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 
@@ -11,6 +12,9 @@ public class Health : MonoBehaviour
     public bool Invulnerable { get; private set; }
     public SpriteRenderer SpriteRenderer { get; private set; }
     public IVolitile VolitileComponent { get; private set; }
+
+    public event Action OnHit;
+    public event Action OnHeal;
 
     void Start()
     {
@@ -34,6 +38,9 @@ public class Health : MonoBehaviour
 
         // Flash the sprite
         Flash();
+
+        // Fire the OnHit event
+        OnHit?.Invoke();
     }
 
     public void Heal()
@@ -46,6 +53,9 @@ public class Health : MonoBehaviour
         {
             CurrentHitPoints = maxHitPoints;
         }
+
+        // Fire the OnHeal event
+        OnHeal?.Invoke();
     }
 
     public void Flash()

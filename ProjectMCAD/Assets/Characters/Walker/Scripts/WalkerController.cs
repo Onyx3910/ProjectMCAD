@@ -15,11 +15,15 @@ public class WalkerController : MonoBehaviour, IVolitile
     public CapsuleCollider2D Collider { get; private set; }
     public bool WalkingRight => Velocity.x > 0f;
     public bool WalkingLeft => Velocity.x < 0f;
+    public SpriteRenderer SpriteRenderer { get; private set; }
+    public Health Health { get; private set; }
 
     void Start()
     {
         VelocityTarget = horizontalSpeed * Vector2.right;
         Collider = GetComponent<CapsuleCollider2D>();
+        SpriteRenderer = GetComponent<SpriteRenderer>();
+        Health = GetComponent<Health>();
     }
 
     void Update()
@@ -31,7 +35,7 @@ public class WalkerController : MonoBehaviour, IVolitile
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Player"))
+        if(collision.CompareTag("Player") && !Health.Invulnerable)
         {
             collision.GetComponent<Health>().Hit();
             return;
@@ -47,6 +51,7 @@ public class WalkerController : MonoBehaviour, IVolitile
 
     public void Flip()
     {
+        SpriteRenderer.flipX = !SpriteRenderer.flipX;
         VelocityTarget = -VelocityTarget;
     }
 

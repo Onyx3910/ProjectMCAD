@@ -111,7 +111,7 @@ MonoBehaviour:
   ground:
     serializedVersion: 2
     m_Bits: 64
-  collisionCheckRadius: 0.4
+  collisionCheckRadius: 0.3
   dialogueOptions: {fileID: 6923569573230323538}
 --- !u!95 &7425340996707420564
 Animator:

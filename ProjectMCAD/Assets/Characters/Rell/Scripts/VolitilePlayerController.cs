@@ -217,7 +217,7 @@ public class VolitilePlayerController : MonoBehaviour, IVolitile
     private bool IsCollidingLeft(out float penetration)
     {
         penetration = 0f;
-        var size = new Vector2(0.1f, 0.75f);
+        var size = new Vector2(0.1f, 0.8f);
         var boxCastLength = 0.4f;
         var hit = Physics2D.BoxCast(transform.position, size, 0f, Vector2.left, boxCastLength, ground);
         if (hit.collider != null)
@@ -249,20 +249,20 @@ public class VolitilePlayerController : MonoBehaviour, IVolitile
         // Below
         WasGrounded = IsGrounded;
         IsGrounded = IsCollidingBelow(out var penetration);
-        if (!WasGrounded && IsGrounded)
+        if (!WasGrounded && IsGrounded && Velocity.y < 0f)
         {
             VelocityTarget = new Vector2(VelocityTarget.x, 0f);
-            Velocity = new Vector2(Velocity.x, 0f);
+            Velocity = new Vector2(Velocity.x, 0);
             transform.Translate(penetration * Vector2.up);
         }
-        else if (IsGrounded)
+        else if (IsGrounded && Velocity.y < 0f)
         {
             Velocity = new Vector2(Velocity.x, 0f);
             transform.Translate(penetration * Vector2.up);
         }
 
         // Above
-        if (IsCollidingAbove(out penetration))
+        if (IsCollidingAbove(out penetration) && Velocity.y > 0f)
         {
             VelocityTarget = new Vector2(VelocityTarget.x, -Mathf.Sqrt(32f));
             Velocity = new Vector2(Velocity.x, 0f);
@@ -309,4 +309,12 @@ public class VolitilePlayerController : MonoBehaviour, IVolitile
     }
 
     #endregion
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, collisionCheckRadius);
+        Gizmos.DrawLine(transform.position, transform.position + Vector3.down);
+        Gizmos.DrawWireSphere(transform.position + Vector3.down, collisionCheckRadius);
+    }
 }

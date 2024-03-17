@@ -78,12 +78,14 @@ public class JumperController : MonoBehaviour, IVolitile
 
     protected IEnumerator JumpRoutine()
     {
-        while(Health.CurrentHitPoints > 0)
+        yield return new WaitForSeconds(jumpEveryXSeconds);
+
+        while (Health.CurrentHitPoints > 0)
         {
-            yield return new WaitForSeconds(jumpEveryXSeconds);
             if (!canMove) continue;
             VelocityTarget += verticalSpeed * Vector2.up;
             VelocityTarget += horizontalSpeed * Vector2.right;
+            yield return new WaitForSeconds(jumpEveryXSeconds);
         }
     }
 

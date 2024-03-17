@@ -136,8 +136,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   canMove: 1
+  jumpEveryXSeconds: 2
   maxSpeed: 50
-  horizontalSpeed: 10
+  horizontalSpeed: 5
   verticalSpeed: 20
   ground:
     serializedVersion: 2

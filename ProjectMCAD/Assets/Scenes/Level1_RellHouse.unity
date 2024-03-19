@@ -743,7 +743,7 @@ MonoBehaviour:
   canSwitch: 1
   lockAfterUse: 1
   nextLevel: {fileID: 1799199112}
-  zoomAfterUse: 10
+  zoomAfterUse: 15
 --- !u!50 &648308979
 Rigidbody2D:
   serializedVersion: 4

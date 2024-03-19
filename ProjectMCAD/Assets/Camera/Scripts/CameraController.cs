@@ -6,6 +6,7 @@ public class CameraController : MonoBehaviour
 {
     public string targetTag = "Player";
     public SpriteRenderer levelSpriteRenderer;
+    public Vector3 offset = new(0f, 1.5f, -1f);
 
     protected Vector3 velocity;
 
@@ -21,7 +22,7 @@ public class CameraController : MonoBehaviour
     void LateUpdate()
     {
         if (Target == null) return;
-        transform.position = Vector3.SmoothDamp(transform.position, Target.position - transform.forward, ref velocity, 0.15f);
+        transform.position = Vector3.SmoothDamp(transform.position, Target.position + offset, ref velocity, 0.15f);
         MoveCameraBackToLevel();
     }
 
